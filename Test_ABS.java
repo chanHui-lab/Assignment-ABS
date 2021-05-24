@@ -115,7 +115,7 @@ public class TestHospital {
 		}
 		System.out.println("Enter hospital (0 - hosp1, 1 - hosp 2) :");
 		int hos = input.nextInt();
-
+		
 		/*for (int i = 0; i < hospitals.get(hos).getDoctor().size();i++) {
 			System.out.println(hospitals.get(hos).getDoctor().get(i));
 		}
@@ -147,32 +147,7 @@ public class TestHospital {
 				System.out.println("not matching");
 				System.exit(0);
 		}*/
-		/*System.out.println("enter schedule to book: ");		//int or string, because its date
-		int bookDate = Integer.parseInt(input.nextLine());
-		System.out.println("enter booking time(1 = 8-10am....): ");
-		int bookTime = Integer.parseInt(input.nextLine());
-		Hospital hospital = null;
-		if(hos ==1) {
-			for(int i = 0 ; i< doctor_list.size(); i++) {
-				if(docName.equals(doctor_list.get(i).getDoctorName())) {
-					Doctor doc = new Doctor(doctor_list.get(i).getSpecialty(),doctor_list.get(i).getDoctorName(),doctor_list.get(i).getDoctorID(),doctor_list.get(i).getPhone(),new Schedule(bookDate,bookTime));
-					//hospital = new Hospital(hospitals.get(0).getHospitalName(), hospitals.get(0).getHospitalWorkingHours(), hospitals.get(0).getAddress(),bookingID, 
-						//	new Doctor(doctor_list.get(i).getSpecialty(),doctor_list.get(i).getDoctorName(),doctor_list.get(i).getDoctorID(),doctor_list.get(i).getPhone(),new Schedule(bookDate,bookTime)));
-					System.out.println(doc.toString());
-					//System.out.println(hospital.toString());
-
-					//Doctor doctor = new Doctor(doctor_list.get(i).getSpecialty(),doctor_list.get(i).getDoctorName(),doctor_list.get(i).getDoctorID(),doctor_list.get(i).getPhone(),new Schedule(bookDate,bookTime));
-				}
-			}
-			//Hospital hosp = new Hospital(hospitals.get(0).getHospitalName(), hospitals.get(0).getWorkingHour(), hospitals.get(0).getAddress(),doctor);
-			//Booking booking = new Booking(bookingID, bookingDate, bookingTime, hosp1);
-			//Patient patient = new Patient();
-		}
-		else if(hos ==2) {
-			
-		}
-		*/
-		
+		//yg bawah comment dah delete.
 	}
 
   }
